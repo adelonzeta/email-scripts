@@ -9,7 +9,7 @@
   "repository": "git+https://github.com/adelonzeta/email-scripts.git",
   "bugs": "https://github.com/adelonzeta/email-scripts/issues",
   "homepage": "https://github.com/adelonzeta/email-scripts#readme",
-  "bind": {
+  "bin": {
     "email-scripts": "./index.js"
   },
   "dependencies": {
