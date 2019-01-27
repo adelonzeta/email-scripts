@@ -9,11 +9,8 @@
   "repository": "git+https://github.com/adelonzeta/email-scripts.git",
   "bugs": "https://github.com/adelonzeta/email-scripts/issues",
   "homepage": "https://github.com/adelonzeta/email-scripts#readme",
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp build",
-    "deploy": "gulp deploy",
-    "test": "gulp send"
+  "bind": {
+    "email-scripts": "./index.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
